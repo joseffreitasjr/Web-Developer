@@ -102,3 +102,17 @@ header nav #link:hover{
 .filme-principal .container{
     width: 87%;
 }
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.sessao{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: Arial Black;
+    font-size: 15px;
+    padding: 10px;
+}
