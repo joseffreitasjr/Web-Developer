@@ -1,6 +1,7 @@
 :root{
     --vermelho: #E50914;
     --preto: #141414;
+    --branco: #ffffff;
 }
 
 /*Elementos Base*/
@@ -15,6 +16,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
 
 header .logo{
     margin-left: 5px;
@@ -34,6 +36,15 @@ header nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--branco);
 }
 
 header nav #link{

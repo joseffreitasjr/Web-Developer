@@ -6,6 +6,7 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="/style/main.css">
     <link rel="stylesheet" href="/style/responsive.css">
+    <link rel="stylesheet" href="/style/menu.css">
     
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
@@ -14,15 +15,20 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">NETFLIX</h2>          
+            
             <nav>
-                <a id="link" href="#">Início</a>
-                <a id="link" href="#">Séries</a>
-                <a id="link" href="#">Filmes</a>
-                <a id="link" href="#">Documentários</a>
+                <a id="link" href="#inicio">Início</a>
+                <a id="link" href="#filmes">Filmes</a>
+                <a id="link" href="#series">Séries</a>
+                <a id="link" href="#documentarios">Documentários</a>
             </nav>
+
         </div>
+        
+        
     </header>
+    
 
     <main>
         <div class="filme-principal">
@@ -34,11 +40,11 @@
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play-circle"></i>    
-                        ASSISTIR AGORA
+                        <a href="https://www.youtube.com/watch?v=S4fsL7fHJP0" target="_blank">ASSISTIR AGORA</a> 
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                        <a href="https://pt.wikipedia.org/wiki/Death_Note" target="_blank">MAIS INFORMAÇÕES</a> 
                     </button>
                 </div>
             </div>          
@@ -96,6 +102,95 @@
         </div>
     </div>
 
+    <div class="sessao">
+        <h1 id="filmes">Filmes</h1>
+    </div>
+
+    <div class="carroussel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/mov1.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mov2.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mov3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mov4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mov5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mov6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mov7.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="sessao">
+        <h1 id="series">Séries</h1>
+    </div>
+
+    <div class="carroussel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/serie1.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/serie2.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/serie3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/serie4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/serie5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/serie6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/serie7.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="sessao">
+        <h1 id="documentarios">Documentários</h1>
+    </div>
+
+    <div class="carroussel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/doc1.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/doc2.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/doc3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/doc4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/doc5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/doc6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/doc7.jpg">
+            </div>
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/2586d1fbe9.js" crossorigin="anonymous"></script>
     
     <!--owl javascript-->

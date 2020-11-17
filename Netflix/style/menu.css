@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background: var(--vermelho);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    top: 5px;
+    right: 13px;
+
+}
+
